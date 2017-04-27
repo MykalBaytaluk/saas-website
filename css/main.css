@@ -1,5 +1,9 @@
 html {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
+}
+
+.logo-text {
+  font-family: "Contrail One", cursive;
 }
 
 .masthead {
@@ -17,6 +21,15 @@ a {
 
 a:hover {
   color: #fff;
+  background-color: #000;
+}
+
+.btn {
+  background-color: #549788;
+  border-radius: 0px;
+  border-color: #549788;
+  border-style: outset;
+  font-family: "Contrail One", cursive;
 }
 
 .banner {
@@ -42,6 +55,7 @@ a:hover {
 
 footer {
   background-color: #549788;
+  font-family: "Contrail One", cursive;
 }
 
 @media only screen and (min-width: 38em) {
