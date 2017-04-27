@@ -1,0 +1,51 @@
+html {
+  font-family: 'Bitter', serif;
+}
+
+.masthead {
+  background-color: #549788;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.current {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../images/home-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.banner-tour {
+  height: 25rem;
+  background-image: url("../images/tour-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.banner-pricing {
+  height: 25rem;
+  background-image: url("../images/pricing-banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+footer {
+  background-color: #549788;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
