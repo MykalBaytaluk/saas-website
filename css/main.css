@@ -1,8 +1,9 @@
 html {
-  font-family: "Bitter", serif;
+  font-family: Bitter, serif;
 }
 
-.logo-text {
+.logo-text,
+.pricing-head {
   font-family: "Contrail One", cursive;
 }
 
@@ -37,6 +38,7 @@ a:hover {
   background-image: url("../images/home-banner.jpg");
   background-size: cover;
   background-position: 50%;
+  opacity: .8;
 }
 
 .banner-tour {
@@ -44,6 +46,7 @@ a:hover {
   background-image: url("../images/tour-banner.jpg");
   background-size: cover;
   background-position: 50%;
+  opacity: .8;
 }
 
 .banner-pricing {
@@ -51,6 +54,28 @@ a:hover {
   background-image: url("../images/pricing-banner.jpg");
   background-size: cover;
   background-position: 50%;
+  opacity: .8;
+}
+
+.head-text,
+.head-body {
+  color: #000;
+}
+
+.card {
+  border: solid;
+  border-color: #000;
+  border-width: medium;
+  max-width: 80%;
+  border-style: outset;
+}
+
+.black {
+  background-color: #000;
+}
+
+.text-left {
+  max-width: 28em;
 }
 
 footer {
